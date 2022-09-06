@@ -66,7 +66,7 @@ public class Student {
     }
 
     public int age() {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d/MM/yyyy");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
         LocalDate birthdate = LocalDate.parse(birthDate, formatter);
         LocalDate now = LocalDate.now();

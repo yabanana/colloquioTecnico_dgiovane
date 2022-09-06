@@ -16,20 +16,6 @@ public class ListStudentService implements IStudentService{
     public ListStudentService() {
 
         repo = new ArrayList<Student>();
-
-        List<String> grades = new ArrayList<>();
-        grades.add("uno");
-        grades.add("due");
-
-        Student s = new Student();
-        s.setId(1);
-        s.setBirthDate("aaaa");
-        s.setGrades(grades);
-        s.setFirstName("Daniele");
-        s.setLastName("Giovane");
-        s.setBirthDate("trenta");
-
-        repo.add(s);
     }
 
     @Override
