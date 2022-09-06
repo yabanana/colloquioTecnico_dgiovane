@@ -1,3 +1,7 @@
+Utilizzato Spring Boot
+
+Ho usato la dependency Injection per favorire il riuso del codice
+
 esempio di response GET
 
     {
